@@ -1,0 +1,134 @@
+
+
+.content1{
+  
+  margin: 10px;
+  background: #1c1d22;
+  font-family: "Varela Round", sans-serif;
+  color: #ffff;
+}
+
+
+.grid-container{
+  /* background-color: #d94f5c; */
+  
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template: " header header"
+                  " main derecha"
+                  " footer footer";
+  grid-template-columns: 60fr 30fr;
+  grid-template-rows: 2fr 8fr 1fr;
+}
+
+/*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjlllllllllksdjdjskjdkljslkd*/
+header{
+  grid-area: header;
+  height: 110px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+
+  list-style: none;
+}
+
+.menu li {
+
+  width: 125px;
+  height: 50px;
+  text-align: center;
+}
+
+.menu li a {
+    font-size: 22px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    z-index: 9;
+    
+   
+  }
+
+
+  .menu :hover a {
+    color: #d94f5c;
+  }
+
+  /*LOGO*/
+  #log { 
+    position: relative; 
+  } 
+  #log img.logo { 
+    position: absolute; 
+    left: 30px; 
+    height: 150px;
+  }
+
+
+
+
+
+
+/*nav{
+  grid-area: nav;
+  background-color: dodgerblue;
+}*/
+main{
+  grid-area: main;
+
+
+}
+.titulo1{
+  margin-top: 60px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  /*font-style: italic;*/
+}
+.titulo2{
+  font-size: 50px;
+   text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.vector{
+ margin-top: 5px;
+  height: 100px;
+  
+}
+.con1{
+  margin-top: 10px;
+  text-align: justify;
+  margin-right: 30px;
+}
+.contacto{
+  padding: 20px;
+  margin: 0 auto;
+}
+.img1{
+  margin-left: 10px;
+  height: 50px;
+}
+
+
+nav.derecha{
+  grid-area: derecha;
+  height: 650px;
+
+}
+  /*aisdjfoasdjflkasdjlfka imagen de incio*/
+  nav.derecha img{
+    width: 500px;
+    height: 600px;
+  }
+
+
+
+
+
+
