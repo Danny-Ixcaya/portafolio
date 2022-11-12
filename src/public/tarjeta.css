@@ -9,18 +9,7 @@
 }
 
 
-.grid-container{
-  /* background-color: #d94f5c; */
-  
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template: " header header"
-                  " main derecha"
-                  " footer footer";
-  grid-template-columns: 60fr 30fr;
-  grid-template-rows: 2fr 8fr 1fr;
-}
+
 
 /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjlllllllllksdjdjskjdkljslkd*/
 header{
