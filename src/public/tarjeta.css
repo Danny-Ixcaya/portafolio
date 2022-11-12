@@ -8,18 +8,16 @@
   color: #ffff;
 }
 
-
 .inicio2{
+  display: flex;
+}
+
+
+.cinicio{
   /* background-color: #d94f5c; */
-  
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template: " header header"
-                  " main derecha"
-                  " footer footer";
-  grid-template-columns: 60fr 30fr;
-  grid-template-rows: 2fr 8fr 1fr;
+  /* height: 20%; */
+  width: 60%;
+
 }
 
 /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjlllllllllksdjdjskjdkljslkd*/
@@ -116,15 +114,19 @@ main{
 }
 
 
-nav.derecha{
-  grid-area: derecha;
+.derecha{
+  width: 40%;
+  /* background-color: aqua; */
+  /* grid-area: derecha; */
   height: 650px;
 
 }
   /*aisdjfoasdjflkasdjlfka imagen de incio*/
-  nav.derecha img{
+  .derecha img{
+
     width: 500px;
     height: 600px;
+    margin: 2px 0px 20px 20px;
   }
 
 
